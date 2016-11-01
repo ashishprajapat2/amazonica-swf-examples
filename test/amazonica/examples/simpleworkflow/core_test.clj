@@ -2,6 +2,6 @@
   (:require [clojure.test :refer :all]
             [amazonica.examples.simpleworkflow.core :as sws]))
 
-(deftest a-test
+(deftest ^:unit a-test
   (is (= (sws/foo "bar")
-         ["bar" "Hellow, World!"])))
+         ["bar" "Hello, World!"])))
