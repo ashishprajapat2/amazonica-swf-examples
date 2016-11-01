@@ -1,4 +1,4 @@
-# amazonica-sws-examples
+# amazonica-swf-examples
 
 [![Build Status][travis-badge]][travis]
 [![Dependencies Status][deps-badge]][deps]
@@ -55,13 +55,13 @@ Apache License, Version 2.0.
 
 <!-- Named page links below: /-->
 
-[travis]: https://travis-ci.org/clojusc/amazonica-sws-examples
-[travis-badge]: https://travis-ci.org/clojusc/amazonica-sws-examples.png?branch=master
-[deps]: http://jarkeeper.com/clojusc/amazonica-sws-examples
-[deps-badge]: http://jarkeeper.com/clojusc/amazonica-sws-examples/status.svg
+[travis]: https://travis-ci.org/clojusc/amazonica-swf-examples
+[travis-badge]: https://travis-ci.org/clojusc/amazonica-swf-examples.png?branch=master
+[deps]: http://jarkeeper.com/clojusc/amazonica-swf-examples
+[deps-badge]: http://jarkeeper.com/clojusc/amazonica-swf-examples/status.svg
 [logo]: resources/images/claws.png
-[tag-badge]: https://img.shields.io/github/tag/clojusc/amazonica-sws-examples.svg?maxAge=2592000
-[tag]: https://github.com/clojusc/amazonica-sws-examples/tags
+[tag-badge]: https://img.shields.io/github/tag/clojusc/amazonica-swf-examples.svg?maxAge=2592000
+[tag]: https://github.com/clojusc/amazonica-swf-examples/tags
 [clojure-v]: https://img.shields.io/badge/clojure-1.8.0-blue.svg
-[clojars]: https://clojars.org/clojusc/amazonica-sws-examples
-[clojars-badge]: https://img.shields.io/clojars/v/clojusc/amazonica-sws-examples.svg
+[clojars]: https://clojars.org/clojusc/amazonica-swf-examples
+[clojars-badge]: https://img.shields.io/clojars/v/clojusc/amazonica-swf-examples.svg

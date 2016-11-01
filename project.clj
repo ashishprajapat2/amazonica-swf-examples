@@ -1,6 +1,6 @@
-(defproject clojusc/amazonica-sws-examples "0.1.0-SNAPSHOT"
+(defproject clojusc/amazonica-swf-examples "0.1.0-SNAPSHOT"
   :description "AWS Simple Workflow Service Examples in Clojure (using Amazonica)"
-  :url "https://github.com/clojusc/amazonica-sws-examples"
+  :url "https://github.com/clojusc/amazonica-swf-examples"
   :license {:name "Apache License, Version 2.0"
             :url "http://www.apache.org/licenses/LICENSE-2.0"}
   :dependencies [[amazonica "0.3.77"]
@@ -35,7 +35,7 @@
                 [lein-simpleton "1.3.0"]]
       :codox {
         :project {
-          :name "amazonica-sws-examples"
+          :name "amazonica-swf-examples"
           :description "AWS Simple Workflow Service Examples in Clojure (using Amazonica)"}
         :namespaces [#"^amazonica.examples.simpleworkflow\.(?!dev)"]
         :output-path "docs/master/current"
