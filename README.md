@@ -21,7 +21,16 @@
 
 ## About [&#x219F;](#contents)
 
-TBD
+This project provides a port of the official Java examples provided by Amazon
+for its [Simple Workflow service](http://docs.aws.amazon.com/amazonswf/latest/awsflowguide/getting-started.html).
+In particular, the "Getting Started" section of the docs has been presented
+in this repo's documentation. The following sections are included:
+ * HelloWorld Application
+ * TBD: HelloWorldWorkflow Application
+ * TBD: HelloWorldWorkflowAsync Application
+ * TBD: HelloWorldWorkflowDistributed Application
+
+See the "Documentation" section below for a link to all of these.
 
 
 ## Dependencies [&#x219F;](#contents)
@@ -40,7 +49,37 @@ Documentation for the Clojure ports of the Java AWS SWF examples is provided her
 
 ## Usage [&#x219F;](#contents)
 
-Start up the REPL (and be sure to have a running Mesos deployment), then:
+Start up the REPL:
+
+```
+$ lein repl
+```
+
+HelloWorld Application:
+
+
+```clj
+amazonica.examples.simpleworkflow.dev=> (app/-main)
+Hello, World!
+nil
+```
+
+HelloWorldWorkflow Application:
+
+
+```clj
+
+```
+
+HelloWorldWorkflowAsync Application:
+
+
+```clj
+
+```
+
+HelloWorldWorkflowDistributed Application:
+
 
 ```clj
 
