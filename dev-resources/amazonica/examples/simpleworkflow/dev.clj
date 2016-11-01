@@ -1,1 +1,4 @@
-(ns amazonica.examples.simpleworkflow.dev)
+(ns amazonica.examples.simpleworkflow.dev
+  (:require [amazonica.examples.simpleworkflow.app :as app]))
+
+
