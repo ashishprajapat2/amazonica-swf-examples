@@ -1,5 +1,14 @@
 # HelloWorldWorkflow Application
 
+----
+
+WIP! Please distregard the content on this page for now: it is pending support
+for the full AWS Simple Workflow API. For more details, see the following:
+
+* https://github.com/mcohen01/amazonica/issues/244
+
+----
+
 Adapted from the [Java HelloWorldWorkflow Application](http://docs.aws.amazon.com/amazonswf/latest/awsflowguide/getting-started-example-helloworldworkflow.html).
 
 ## Registering the Workflow Domain
