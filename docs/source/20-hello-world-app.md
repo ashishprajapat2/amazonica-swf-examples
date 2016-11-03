@@ -5,6 +5,7 @@ Adapted from the [Java HelloWorld Application](http://docs.aws.amazon.com/amazon
 To print "Hello, World!" to the console, the activity tasks must execute in
 sequence in the correct order with the correct data.
 
+
 ## HelloWorld Activities Protocol
 
 HelloWorld breaks the overall task of printing a "Hello World!" greeting to
@@ -24,6 +25,7 @@ protocol, as follows.
     "Given a greeting, display it (usually to `stdout`)."))
 ```
 
+
 ## HelloWorld Activities Implementation
 
 HelloWorld has one activity implementation, `GreeterActivities`, which
@@ -36,6 +38,7 @@ provides the behaviour as shown:
    :get-greeting (fn [this value] (format "Hello, %s!" value))
    :say (fn [this greeting] (println greeting))})
 ```
+
 
 ## HelloWorld Workflow Worker
 
