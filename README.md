@@ -64,6 +64,13 @@ Hello, World!
 nil
 ```
 
+HelloWorldWorkflow Java Application:
+
+```clj
+amazonica.examples.simpleworkflow.dev=> (javaapp/-main :start :worker)
+amazonica.examples.simpleworkflow.dev=> (javaapp/-main :run)
+```
+
 HelloWorldWorkflow Application:
 
 
