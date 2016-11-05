@@ -2,6 +2,7 @@
   (:require [amazonica.aws.simpleworkflow :as swf]
             [amazonica.examples.simpleworkflow.app :as app]
             [amazonica.examples.simpleworkflow.wfapp :as wfapp]
+            [clojusc.aws.examples.swf.javaapp.run :as javaapp]
             [dire.core :as dire]))
 
 (def cred {:access-key (System/getenv "AWS_ACCESS_KEY_ID")

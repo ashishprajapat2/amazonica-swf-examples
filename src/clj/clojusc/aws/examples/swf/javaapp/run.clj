@@ -42,7 +42,9 @@
                      com.amazonaws] :debug)
   (case cmd
     ["start" "worker"] (GreeterWorker/main)
+    [:start :worker] (GreeterWorker/main)
     ["run"] (GreeterMain/main)
+    [:run] (GreeterMain/main)
     ["help"] (usage)
     ["--help"] (usage)
     ["-h"] (usage)))

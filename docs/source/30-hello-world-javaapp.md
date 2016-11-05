@@ -9,6 +9,8 @@ example.
 
 ## Usage
 
+### Command Line
+
 To run the Java version of the sample SWF application, open up two terminals
 whose working directory is that of this project's clone, and then run these
 two commands (one in each terminal):
@@ -19,6 +21,20 @@ $ lein javaapp start worker
 
 ```
 $ lein javaapp run
+```
+
+
+### Clojure REPL
+
+To run in the REPL, simply do the following:
+
+```
+$ lein repl
+```
+
+```clj
+amazonica.examples.simpleworkflow.dev=> (javaapp/-main :start :worker)
+amazonica.examples.simpleworkflow.dev=> (javaapp/-main :run)
 ```
 
 
@@ -61,4 +77,3 @@ files that were written by hand are the following:
 * `GreeterWorker.java`
 * `GreeterWorkflow.java`
 * `GreeterWorkflowImpl.java`
-
