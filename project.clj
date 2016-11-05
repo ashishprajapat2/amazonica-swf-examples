@@ -5,17 +5,12 @@
             :url "http://www.apache.org/licenses/LICENSE-2.0"}
   :dependencies [[amazonica "0.3.77"]
                  [clojusc/twig "0.2.6"]
-                 [com.amazonaws/aws-java-sdk-simpleworkflow "1.11.49"]
-                 [com.amazonaws/aws-java-sdk-swf-libraries "1.11.22"]
                  [dire "0.5.4"]
-                 [org.aspectj/aspectjrt "1.8.9"]
-                 [org.aspectj/aspectjweaver "1.8.9"]
-                 [org.clojure/clojure "1.8.0"]
-                 [org.clojure/core.async "0.2.395"]
-                 [potemkin "0.4.3"]]
+                 [org.clojure/clojure "1.8.0"]]
   :source-paths ["src/clj"]
   :java-source-paths ["src/java"]
-  :aot [clojusc.aws.examples.swf.wfapp]
+  :aot [amazonica.examples.simpleworkflow.app
+        clojusc.aws.examples.swf.javaapp.run]
   :java-agents [[org.aspectj/aspectjweaver "1.8.9"]]
   :main amazonica.examples.simpleworkflow.app
   :aliases {
