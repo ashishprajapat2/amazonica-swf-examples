@@ -10,15 +10,21 @@
   :source-paths ["src/clj"]
   :java-source-paths ["src/java"]
   :aot [amazonica.examples.simpleworkflow.app
+        clojusc.aws.examples.swf.cjapp
         clojusc.aws.examples.swf.javaapp.run]
   :java-agents [[org.aspectj/aspectjweaver "1.8.9"]]
   :main amazonica.examples.simpleworkflow.app
   :aliases {
     "javaapp"
-      ^{:doc (str "Command line interface for Java sample app. "
+      ^{:doc (str "Command line interface for the Java sample app. "
                   "For more info run `lein javaapp help`\n")}
       ^:pass-through-help
-      ["run" "-m" "clojusc.aws.examples.swf.javaapp.run"]}
+      ["run" "-m" "clojusc.aws.examples.swf.javaapp.run"]
+    "cjapp"
+      ^{:doc (str "Command line interface for the Clojure + Java sample app. "
+                  "For more info run `lein cjapp help`\n")}
+      ^:pass-through-help
+      ["run" "-m" "clojusc.aws.examples.swf.cjapp"]}
   :profiles {
     :uber {
       :aot :all}
