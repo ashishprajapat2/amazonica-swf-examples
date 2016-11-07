@@ -12,11 +12,18 @@
 
 #### Contents
 
+* [Abandoned](#abandoned-)
 * [About](#about-)
 * [Dependencies](#dependencies-)
 * [Documentation](#documentation-)
 * [Usage](#usage-)
 * [License](#license-)
+
+
+## Abandoned [&#x219F;](#contents)
+
+Heads up! After hacking on this for about a week, SFW revealed itself to be an essentially untennable path forward for my projects. This is mostly due to an exorbidantly high overhead when used with Clojure. For a bit more, you can view this comment:
+ * https://github.com/mcohen01/amazonica/issues/244#issuecomment-258720324
 
 
 ## About [&#x219F;](#contents)
